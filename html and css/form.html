@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+    <title>Forms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+           <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="/" method="get">
+
+        <label for="name">Your Name</label>
+        <input type="text " id="name" required>
+
+        <label for="email">Your email</label>
+        <input type="email " id="email" required>
+
+        <label for="message">Your message</label>
+        <textarea name=""id="message"></textarea>
+
+        <label for="birthdate">Your birth date</label>
+        <input type=" date" id="birthdate" required>
+
+        <label for="age">Your age</label>
+        <input type="number " id='age' step="2" required>
+
+        <label for="password">Your Password</label>
+        <input type="password" id="password" required>
+
+        <label for="colour">Your favourite colour</label>
+        <select name="colour" id="colour">
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        </select>
+
+        <h2>How we should verify your account?</h2>
+        <div class="inline">
+            <input type="radio" name="verify" id="phone" value="phone">
+            <label for="phone">Verify via Phone Call</label>
+        </div>
+        <div class="inline">
+            <input type="radio" name="verify" id="message" value="message">
+            <label for="message">Verify via message</label>
+        </div>
+        <div class="inline">
+            <input type="radio" name="verify" id="email" value="email">
+            <label for="email">Verify via Email</label>
+        </div>
+        
+        <div class="inline">
+            <input type="checkbox"name="contact" id="email"value="email">
+            <label for="email">Email</label>
+         </div>
+        <div class="inline">
+            <input type="checkbox"name="contact" id="phone"value="phone">
+            <label for="email">Phone</label>
+         </div>
+         <button type="submit">Submit</button>
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>

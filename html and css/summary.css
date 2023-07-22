@@ -1,0 +1,49 @@
+body {
+    background-color:rgb(230, 193, 230);
+    margin:0 ;
+    font-family: 'Roboto', sans-serif;
+}
+header h1{
+    text-align: center;
+    color:rgb(82, 13, 147);
+    
+}
+.img1{
+    text-align: center;
+    
+}
+
+header ul{
+    background-color:rgb(109, 31, 181);
+    color: white;
+    margin: 80px;
+}
+.bar{
+    color: yellow;
+    margin-left: 8px;
+    font-size: 20px;
+    width: auto;
+    font-weight: bold;
+}
+.btn{
+
+    background-color: yellow;
+    text-decoration-line: none;
+    color: rgb(71, 8, 130);
+    border-radius: 3px;
+
+}
+footer{
+    text-align: center;
+}
+.button{
+   background-color: yellow;
+   color: rgb(84, 7, 155);
+   border-radius: 6px;
+   text-decoration: none;
+   
+   padding: 10px;
+
+    
+}
+
